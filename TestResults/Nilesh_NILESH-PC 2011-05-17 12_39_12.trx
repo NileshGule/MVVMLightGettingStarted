@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0d53a1da-3e13-47ba-92c7-58708caf01fb" name="Nilesh@NILESH-PC 2011-05-17 12:39:12" runUser="Nilesh-PC\Nilesh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b20321e7-a8ee-437f-9987-ce365a618af3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Nilesh_NILESH-PC 2011-05-17 12_39_12">
+      <DeploymentItem filename="C:\Silverlight\MVVMLightGettingStarted\packages\MvvmLight.3.0.2\lib\SL4\GalaSoft.MvvmLight.SL4.dll" />
+      <DeploymentItem filename="C:\Silverlight\MVVMLightGettingStarted\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\Silverlight\v4.0\System.Windows.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\system.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-05-17T12:39:12.2585927+08:00" queuing="2011-05-17T12:39:12.2705934+08:00" start="2011-05-17T12:39:12.2765937+08:00" finish="2011-05-17T12:39:12.6796168+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ConstructorTest" storage="c:\silverlight\mvvmlightgettingstarted\viewmodel.test\bin\debug\viewmodel.test.dll" id="14da30da-3852-c989-a4fe-f3326e541718">
+      <Execution id="498f3430-d296-4f75-abdb-ce5a45ba5922" />
+      <TestMethod codeBase="C:/Silverlight/MVVMLightGettingStarted/ViewModel.Test/bin/Debug/ViewModel.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ViewModel.Test.MainViewModelTest, ViewModel.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="14da30da-3852-c989-a4fe-f3326e541718" executionId="498f3430-d296-4f75-abdb-ce5a45ba5922" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="498f3430-d296-4f75-abdb-ce5a45ba5922" testId="14da30da-3852-c989-a4fe-f3326e541718" testName="ConstructorTest" computerName="NILESH-PC" duration="00:00:00.1321394" startTime="2011-05-17T12:39:12.2825941+08:00" endTime="2011-05-17T12:39:12.6376144+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="498f3430-d296-4f75-abdb-ce5a45ba5922">
+    </UnitTestResult>
+  </Results>
+</TestRun>

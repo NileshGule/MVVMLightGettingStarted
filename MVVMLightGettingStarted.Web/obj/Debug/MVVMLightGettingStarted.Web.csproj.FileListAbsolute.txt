@@ -1,0 +1,5 @@
+E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted.Web\bin\MVVMLightGettingStarted.Web.dll
+E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted.Web\bin\MVVMLightGettingStarted.Web.pdb
+E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted.Web\obj\Debug\ResolveAssemblyReference.cache
+E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted.Web\obj\Debug\MVVMLightGettingStarted.Web.dll
+E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted.Web\obj\Debug\MVVMLightGettingStarted.Web.pdb

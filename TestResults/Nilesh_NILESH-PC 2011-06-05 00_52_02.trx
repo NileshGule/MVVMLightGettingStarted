@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="aaa691d7-60d5-4318-9df1-74df2d426527" name="Nilesh@NILESH-PC 2011-06-05 00:52:02" runUser="Nilesh-PC\Nilesh" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b20321e7-a8ee-437f-9987-ce365a618af3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Nilesh_NILESH-PC 2011-06-05 00_52_02">
+      <DeploymentItem filename="E:\Silverlight\MVVMLightGettingStarted\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll" />
+      <DeploymentItem filename="E:\Silverlight\MVVMLightGettingStarted\packages\MvvmLight.3.0.2\lib\SL4\GalaSoft.MvvmLight.SL4.dll" />
+      <DeploymentItem filename="c:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\Silverlight\v4.0\System.Windows.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\system.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="E:\Silverlight\MVVMLightGettingStarted\ViewModels\Bin\Debug\ViewModels.dll" pdbFile="E:\Silverlight\MVVMLightGettingStarted\ViewModels\Bin\Debug\ViewModels.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-06-05T00:52:02.7436475+08:00" queuing="2011-06-05T00:52:08.3440573+08:00" start="2011-06-05T00:52:08.8120582+08:00" finish="2011-06-05T00:52:13.3360661+08:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="NILESH-PC" outcome="Warning" timestamp="2011-06-05T00:52:06.3940539+08:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'System.Xml' directly or indirectly referenced by the test container 'e:\silverlight\mvvmlightgettingstarted\viewmodel.test\bin\debug\viewmodel.test.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+    <ResultFiles>
+      <ResultFile path="NILESH-PC\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MainViewModel_WhenSearchTextIsSet_ReturnHasTextAsTrueTest" storage="e:\silverlight\mvvmlightgettingstarted\viewmodel.test\bin\debug\viewmodel.test.dll" id="86734be6-54e4-f5a3-3893-4e2c849904eb">
+      <Execution id="c15cec66-120b-48c7-8869-317f72045b81" />
+      <TestMethod codeBase="E:/Silverlight/MVVMLightGettingStarted/ViewModel.Test/bin/Debug/ViewModel.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ViewModel.Test.MainViewModelTest, ViewModel.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainViewModel_WhenSearchTextIsSet_ReturnHasTextAsTrueTest" />
+    </UnitTest>
+    <UnitTest name="ConstructorTest" storage="e:\silverlight\mvvmlightgettingstarted\viewmodel.test\bin\debug\viewmodel.test.dll" id="14da30da-3852-c989-a4fe-f3326e541718">
+      <Execution id="f6143d5d-c368-4e83-b8ed-70c071e2eac8" />
+      <TestMethod codeBase="E:/Silverlight/MVVMLightGettingStarted/ViewModel.Test/bin/Debug/ViewModel.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ViewModel.Test.MainViewModelTest, ViewModel.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="14da30da-3852-c989-a4fe-f3326e541718" executionId="f6143d5d-c368-4e83-b8ed-70c071e2eac8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86734be6-54e4-f5a3-3893-4e2c849904eb" executionId="c15cec66-120b-48c7-8869-317f72045b81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f6143d5d-c368-4e83-b8ed-70c071e2eac8" testId="14da30da-3852-c989-a4fe-f3326e541718" testName="ConstructorTest" computerName="NILESH-PC" duration="00:00:00.4934615" startTime="2011-06-05T00:52:10.7776616+08:00" endTime="2011-06-05T00:52:11.8696635+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6143d5d-c368-4e83-b8ed-70c071e2eac8">
+    </UnitTestResult>
+    <UnitTestResult executionId="c15cec66-120b-48c7-8869-317f72045b81" testId="86734be6-54e4-f5a3-3893-4e2c849904eb" testName="MainViewModel_WhenSearchTextIsSet_ReturnHasTextAsTrueTest" computerName="NILESH-PC" duration="00:00:00.0046108" startTime="2011-06-05T00:52:11.8696635+08:00" endTime="2011-06-05T00:52:11.8852635+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c15cec66-120b-48c7-8869-317f72045b81">
+    </UnitTestResult>
+  </Results>
+</TestRun>

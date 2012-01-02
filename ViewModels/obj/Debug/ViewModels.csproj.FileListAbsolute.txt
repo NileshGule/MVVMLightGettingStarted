@@ -1,0 +1,7 @@
+E:\Silverlight\MVVMLightGettingStarted\ViewModels\Bin\Debug\ViewModels.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModels\Bin\Debug\ViewModels.pdb
+E:\Silverlight\MVVMLightGettingStarted\ViewModels\Bin\Debug\GalaSoft.MvvmLight.SL4.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModels\Bin\Debug\GalaSoft.MvvmLight.SL4.xml
+E:\Silverlight\MVVMLightGettingStarted\ViewModels\obj\Debug\ResolveAssemblyReference.cache
+E:\Silverlight\MVVMLightGettingStarted\ViewModels\obj\Debug\ViewModels.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModels\obj\Debug\ViewModels.pdb

@@ -1,0 +1,8 @@
+﻿<xapCache source="E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted\Bin\Debug\MVVMLightGettingStarted.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="5/6/2011 12:39:44 AM">
+  <file source="E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted\obj\Debug\MVVMLightGettingStarted.dll" archivePath="MVVMLightGettingStarted.dll" lastWriteTime="5/6/2011 12:39:43 AM" />
+  <file source="E:\Silverlight\MVVMLightGettingStarted\packages\MvvmLight.3.0.2\lib\SL4\GalaSoft.MvvmLight.Extras.SL4.dll" archivePath="GalaSoft.MvvmLight.Extras.SL4.dll" lastWriteTime="9/5/2011 11:47:54 PM" />
+  <file source="E:\Silverlight\MVVMLightGettingStarted\packages\MvvmLight.3.0.2\lib\SL4\GalaSoft.MvvmLight.SL4.dll" archivePath="GalaSoft.MvvmLight.SL4.dll" lastWriteTime="9/5/2011 11:47:54 PM" />
+  <file source="E:\Silverlight\MVVMLightGettingStarted\packages\MvvmLight.3.0.2\lib\SL4\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="9/5/2011 11:47:54 PM" />
+  <file source="E:\Silverlight\MVVMLightGettingStarted\ViewModels\Bin\Debug\ViewModels.dll" archivePath="ViewModels.dll" lastWriteTime="5/6/2011 12:39:42 AM" />
+  <file source="E:\Silverlight\MVVMLightGettingStarted\MVVMLightGettingStarted\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="5/6/2011 12:39:44 AM" />
+</xapCache>

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage>
+  <assembly name="E:\Silverlight\MVVMLightGettingStarted\SilverlightUnitTests\Bin\Debug\ViewModels.dll">
+    <method name="&lt;.ctor&gt;b__0()" class="ViewModels.MainViewModel" line="18" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="1" visited="0" offset="0" startLine="18" startColumn="63" lastLine="18" lastColumn="77" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="2" visited="0" offset="0" startLine="18" startColumn="63" lastLine="18" lastColumn="77" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="3" visited="0" offset="0" startLine="18" startColumn="63" lastLine="18" lastColumn="77" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="4" visited="0" offset="0" startLine="18" startColumn="63" lastLine="18" lastColumn="77" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="5" visited="0" offset="0" startLine="18" startColumn="63" lastLine="18" lastColumn="77" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="0">$L1: (references=0)</instruction>
+        <instruction offset="0" block="0">START ViewModels.MainViewModel::&lt;.ctor&gt;b__0(T)</instruction>
+        <instruction offset="0" block="1">ViewModels.MainViewModel::&lt;.ctor&gt;b__0: (references=1)</instruction>
+        <instruction offset="0" block="1">this              = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="1">br $L7</instruction>
+        <instruction offset="0" block="2">$L7: (references=1)</instruction>
+        <instruction offset="0" block="2">ENTERBODY</instruction>
+        <instruction offset="0" block="2">SR0               = ldarg this</instruction>
+        <instruction offset="0" block="2">SR0               = call* &amp;ViewModels.MainViewModel::CanSearchNet, SR0, $L6(EH)</instruction>
+        <instruction offset="0" block="3">CS$1$0000$135     = stloc SR0</instruction>
+        <instruction offset="0" block="3">br $L5</instruction>
+        <instruction offset="0" block="4">$L5: (references=1) Offset: 21(0x0015)</instruction>
+        <instruction offset="0" block="4">SR0               = ldloc CS$1$0000$135</instruction>
+        <instruction offset="0" block="4">br $L8</instruction>
+        <instruction offset="0" block="5">$L8: (references=1) Offset: 22(0x0016)</instruction>
+        <instruction offset="0" block="5">EXITBODY</instruction>
+        <instruction offset="0" block="5">ret ViewModels.MainViewModel::&lt;.ctor&gt;b__0(T)</instruction>
+        <instruction offset="0" block="6">ViewModels.MainViewModel::&lt;.ctor&gt;b__0: (references=1) Offset: 23(0x0017)</instruction>
+        <instruction offset="0" block="6">EXITFUNCTION</instruction>
+        <instruction offset="0" block="7">$L6: (references=1)</instruction>
+        <instruction offset="0" block="7">UNWIND</instruction>
+        <instruction offset="0" block="8">$L2: (references=0) Offset: 23(0x0017)</instruction>
+        <instruction offset="0" block="8">END</instruction>
+      </disassembly>
+    </method>
+    <method name=".ctor(object32-&gt;interface?)" class="ViewModels.MainViewModel" line="0" file="">
+      <blocks>
+        <block id="10" visited="0" offset="0" startLine="0" startColumn="0" lastLine="0" lastColumn="0" file="" />
+        <block id="11" visited="0" offset="0" startLine="0" startColumn="0" lastLine="16" lastColumn="59" file="" />
+        <block id="12" visited="0" offset="2" startLine="16" startColumn="9" lastLine="18" lastColumn="79" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="13" visited="0" offset="10" startLine="18" startColumn="13" lastLine="18" lastColumn="79" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="14" visited="0" offset="10" startLine="18" startColumn="13" lastLine="18" lastColumn="79" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="15" visited="0" offset="10" startLine="18" startColumn="13" lastLine="18" lastColumn="79" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="16" visited="0" offset="10" startLine="18" startColumn="13" lastLine="18" lastColumn="79" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="17" visited="0" offset="10" startLine="18" startColumn="13" lastLine="18" lastColumn="79" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="18" visited="0" offset="10" startLine="18" startColumn="13" lastLine="20" lastColumn="44" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="19" visited="0" offset="60" startLine="21" startColumn="9" lastLine="21" lastColumn="10" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="20" visited="0" offset="60" startLine="21" startColumn="9" lastLine="21" lastColumn="10" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="9">$L1: (references=0)</instruction>
+        <instruction offset="0" block="9">START ViewModels.MainViewModel::.ctor(T)</instruction>
+        <instruction offset="0" block="10">ViewModels.MainViewModel::.ctor: (references=1)</instruction>
+        <instruction offset="0" block="10">this, dialogService = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="10">br $L7</instruction>
+        <instruction offset="0" block="11">$L7: (references=1)</instruction>
+        <instruction offset="0" block="11">ENTERBODY</instruction>
+        <instruction offset="0" block="11">SR0               = ldnull nullptr(0x00000000)</instruction>
+        <instruction offset="0" block="11">CS$&lt;&gt;9__CachedAnonymousMethodDelegate1 = stloc SR0</instruction>
+        <instruction offset="2" block="11">SR0               = ldarg this</instruction>
+        <instruction offset="2" block="11">call* &amp;GalaSoft.MvvmLight.ViewModelBase::.ctor, SR0, $L6(EH)</instruction>
+        <instruction offset="2" block="12">nop</instruction>
+        <instruction offset="9" block="12">nop</instruction>
+        <instruction offset="10" block="12">SR0               = ldarg this</instruction>
+        <instruction offset="10" block="12">SR0               = ldarg this</instruction>
+        <instruction offset="10" block="12">SR0               = ldftn &amp;ViewModels.MainViewModel::SearchNet</instruction>
+        <instruction offset="10" block="12">SR0               = newobj* &amp;System.Action::.ctor, SR0, SR0, $L6(EH)</instruction>
+        <instruction offset="10" block="13">SR0               = ldloc CS$&lt;&gt;9__CachedAnonymousMethodDelegate1</instruction>
+        <instruction offset="10" block="13">brc(NE) SR0, $L5, $L9</instruction>
+        <instruction offset="10" block="14">$L9: (references=1) Offset: 38(0x0026)</instruction>
+        <instruction offset="10" block="14">SR0               = ldarg this</instruction>
+        <instruction offset="10" block="14">SR0               = ldftn &amp;ViewModels.MainViewModel::&lt;.ctor&gt;b__0</instruction>
+        <instruction offset="10" block="14">SR0               = newobj* &amp;Renamed class? System.Func`1&lt;bool8&gt;::.ctor, SR0, SR0, $L6(EH)</instruction>
+        <instruction offset="10" block="15">CS$&lt;&gt;9__CachedAnonymousMethodDelegate1 = stloc SR0</instruction>
+        <instruction offset="10" block="15">br $L5</instruction>
+        <instruction offset="10" block="16">$L5: (references=2) Offset: 53(0x0035)</instruction>
+        <instruction offset="10" block="16">SR0               = ldloc CS$&lt;&gt;9__CachedAnonymousMethodDelegate1</instruction>
+        <instruction offset="10" block="16">SR0               = newobj* &amp;GalaSoft.MvvmLight.Command.RelayCommand::.ctor, SR0, SR0, $L6(EH)</instruction>
+        <instruction offset="10" block="17">call* &amp;ViewModels.MainViewModel::set_SearchCommand, SR0, SR0, $L6(EH)</instruction>
+        <instruction offset="10" block="18">nop</instruction>
+        <instruction offset="53" block="18">SR0               = ldarg this</instruction>
+        <instruction offset="53" block="18">SR0               = ldarg dialogService</instruction>
+        <instruction offset="53" block="18">[SR1]*"ViewModels.MainViewModel::_dialogService"+136? = stfld* SR0, $L6(EH)</instruction>
+        <instruction offset="60" block="19">nop</instruction>
+        <instruction offset="60" block="19">br $L8</instruction>
+        <instruction offset="60" block="20">$L8: (references=1) Offset: 73(0x0049)</instruction>
+        <instruction offset="60" block="20">EXITBODY</instruction>
+        <instruction offset="60" block="20">ret ViewModels.MainViewModel::.ctor(T)</instruction>
+        <instruction offset="60" block="21">ViewModels.MainViewModel::.ctor: (references=1) Offset: 74(0x004a)</instruction>
+        <instruction offset="60" block="21">EXITFUNCTION</instruction>
+        <instruction offset="60" block="22">$L6: (references=6)</instruction>
+        <instruction offset="60" block="22">UNWIND</instruction>
+        <instruction offset="60" block="23">$L2: (references=0) Offset: 74(0x004a)</instruction>
+        <instruction offset="60" block="23">END</instruction>
+      </disassembly>
+    </method>
+    <method name="get_SearchCommand()" class="ViewModels.MainViewModel" line="25" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="25" visited="0" offset="0" startLine="25" startColumn="17" lastLine="25" lastColumn="18" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="26" visited="0" offset="0" startLine="25" startColumn="17" lastLine="25" lastColumn="40" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="27" visited="0" offset="1" startLine="25" startColumn="19" lastLine="25" lastColumn="40" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="28" visited="0" offset="10" startLine="25" startColumn="41" lastLine="25" lastColumn="42" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="29" visited="0" offset="10" startLine="25" startColumn="41" lastLine="25" lastColumn="42" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="24">$L1: (references=0)</instruction>
+        <instruction offset="0" block="24">START ViewModels.MainViewModel::get_SearchCommand(T)</instruction>
+        <instruction offset="0" block="25">ViewModels.MainViewModel::get_SearchCommand: (references=1)</instruction>
+        <instruction offset="0" block="25">this              = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="25">br $L7</instruction>
+        <instruction offset="0" block="26">$L7: (references=1)</instruction>
+        <instruction offset="0" block="26">ENTERBODY</instruction>
+        <instruction offset="0" block="26">nop</instruction>
+        <instruction offset="1" block="26">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="26">SR0               = ldfld* [SR0]*"ViewModels.MainViewModel::searchCommand"+72?, $L6(EH)</instruction>
+        <instruction offset="1" block="27">CS$1$0000$135     = stloc SR0</instruction>
+        <instruction offset="1" block="27">br $L5</instruction>
+        <instruction offset="10" block="28">$L5: (references=1) Offset: 22(0x0016)</instruction>
+        <instruction offset="10" block="28">SR0               = ldloc CS$1$0000$135</instruction>
+        <instruction offset="10" block="28">br $L8</instruction>
+        <instruction offset="10" block="29">$L8: (references=1) Offset: 23(0x0017)</instruction>
+        <instruction offset="10" block="29">EXITBODY</instruction>
+        <instruction offset="10" block="29">ret ViewModels.MainViewModel::get_SearchCommand(T)</instruction>
+        <instruction offset="10" block="30">ViewModels.MainViewModel::get_SearchCommand: (references=1) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="30">EXITFUNCTION</instruction>
+        <instruction offset="10" block="31">$L6: (references=1)</instruction>
+        <instruction offset="10" block="31">UNWIND</instruction>
+        <instruction offset="10" block="32">$L2: (references=0) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="32">END</instruction>
+      </disassembly>
+    </method>
+    <method name="set_SearchCommand(object32-&gt;class64)" class="ViewModels.MainViewModel" line="26" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="34" visited="0" offset="0" startLine="26" startColumn="17" lastLine="26" lastColumn="18" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="35" visited="0" offset="0" startLine="26" startColumn="17" lastLine="26" lastColumn="41" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="36" visited="0" offset="1" startLine="26" startColumn="19" lastLine="26" lastColumn="41" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="37" visited="0" offset="8" startLine="26" startColumn="42" lastLine="26" lastColumn="43" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="33">$L1: (references=0)</instruction>
+        <instruction offset="0" block="33">START ViewModels.MainViewModel::set_SearchCommand(T)</instruction>
+        <instruction offset="0" block="34">ViewModels.MainViewModel::set_SearchCommand: (references=1)</instruction>
+        <instruction offset="0" block="34">this, value       = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="34">br $L6</instruction>
+        <instruction offset="0" block="35">$L6: (references=1)</instruction>
+        <instruction offset="0" block="35">ENTERBODY</instruction>
+        <instruction offset="0" block="35">nop</instruction>
+        <instruction offset="1" block="35">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="35">SR0               = ldarg value</instruction>
+        <instruction offset="1" block="35">[SR1]*"ViewModels.MainViewModel::searchCommand"+72? = stfld* SR0, $L5(EH)</instruction>
+        <instruction offset="1" block="36">br $L7</instruction>
+        <instruction offset="8" block="37">$L7: (references=1) Offset: 9(0x0009)</instruction>
+        <instruction offset="8" block="37">EXITBODY</instruction>
+        <instruction offset="8" block="37">ret ViewModels.MainViewModel::set_SearchCommand(T)</instruction>
+        <instruction offset="8" block="38">ViewModels.MainViewModel::set_SearchCommand: (references=1) Offset: 10(0x000a)</instruction>
+        <instruction offset="8" block="38">EXITFUNCTION</instruction>
+        <instruction offset="8" block="39">$L5: (references=1)</instruction>
+        <instruction offset="8" block="39">UNWIND</instruction>
+        <instruction offset="8" block="40">$L2: (references=0) Offset: 10(0x000a)</instruction>
+        <instruction offset="8" block="40">END</instruction>
+      </disassembly>
+    </method>
+    <method name="get_HasText()" class="ViewModels.MainViewModel" line="31" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="42" visited="0" offset="0" startLine="31" startColumn="17" lastLine="31" lastColumn="18" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="43" visited="0" offset="0" startLine="31" startColumn="17" lastLine="31" lastColumn="34" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="44" visited="0" offset="1" startLine="31" startColumn="19" lastLine="31" lastColumn="34" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="45" visited="0" offset="10" startLine="31" startColumn="35" lastLine="31" lastColumn="36" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="46" visited="0" offset="10" startLine="31" startColumn="35" lastLine="31" lastColumn="36" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="41">$L1: (references=0)</instruction>
+        <instruction offset="0" block="41">START ViewModels.MainViewModel::get_HasText(T)</instruction>
+        <instruction offset="0" block="42">ViewModels.MainViewModel::get_HasText: (references=1)</instruction>
+        <instruction offset="0" block="42">this              = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="42">br $L7</instruction>
+        <instruction offset="0" block="43">$L7: (references=1)</instruction>
+        <instruction offset="0" block="43">ENTERBODY</instruction>
+        <instruction offset="0" block="43">nop</instruction>
+        <instruction offset="1" block="43">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="43">SR0               = ldfld* [SR0]*"ViewModels.MainViewModel::hasText"+64?, $L6(EH)</instruction>
+        <instruction offset="1" block="44">CS$1$0000$135     = stloc SR0</instruction>
+        <instruction offset="1" block="44">br $L5</instruction>
+        <instruction offset="10" block="45">$L5: (references=1) Offset: 22(0x0016)</instruction>
+        <instruction offset="10" block="45">SR0               = ldloc CS$1$0000$135</instruction>
+        <instruction offset="10" block="45">br $L8</instruction>
+        <instruction offset="10" block="46">$L8: (references=1) Offset: 23(0x0017)</instruction>
+        <instruction offset="10" block="46">EXITBODY</instruction>
+        <instruction offset="10" block="46">ret ViewModels.MainViewModel::get_HasText(T)</instruction>
+        <instruction offset="10" block="47">ViewModels.MainViewModel::get_HasText: (references=1) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="47">EXITFUNCTION</instruction>
+        <instruction offset="10" block="48">$L6: (references=1)</instruction>
+        <instruction offset="10" block="48">UNWIND</instruction>
+        <instruction offset="10" block="49">$L2: (references=0) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="49">END</instruction>
+      </disassembly>
+    </method>
+    <method name="set_HasText(bool8)" class="ViewModels.MainViewModel" line="33" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="51" visited="0" offset="0" startLine="33" startColumn="13" lastLine="33" lastColumn="14" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="52" visited="0" offset="0" startLine="33" startColumn="13" lastLine="34" lastColumn="33" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="53" visited="0" offset="8" startLine="35" startColumn="17" lastLine="35" lastColumn="49" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="54" visited="0" offset="8" startLine="35" startColumn="17" lastLine="35" lastColumn="49" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="55" visited="0" offset="20" startLine="36" startColumn="13" lastLine="36" lastColumn="14" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="50">$L1: (references=0)</instruction>
+        <instruction offset="0" block="50">START ViewModels.MainViewModel::set_HasText(T)</instruction>
+        <instruction offset="0" block="51">ViewModels.MainViewModel::set_HasText: (references=1)</instruction>
+        <instruction offset="0" block="51">this, value       = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="51">br $L6</instruction>
+        <instruction offset="0" block="52">$L6: (references=1)</instruction>
+        <instruction offset="0" block="52">ENTERBODY</instruction>
+        <instruction offset="0" block="52">nop</instruction>
+        <instruction offset="1" block="52">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="52">SR0               = ldarg value</instruction>
+        <instruction offset="1" block="52">[SR1]*"ViewModels.MainViewModel::hasText"+64? = stfld* SR0, $L5(EH)</instruction>
+        <instruction offset="8" block="53">SR0               = ldarg this</instruction>
+        <instruction offset="8" block="53">SR0               = ldstr Constant-"HasText"</instruction>
+        <instruction offset="8" block="53">callvirt* &amp;GalaSoft.MvvmLight.ViewModelBase::RaisePropertyChanged, SR0, SR0, $L5(EH)</instruction>
+        <instruction offset="8" block="54">nop</instruction>
+        <instruction offset="8" block="54">br $L7</instruction>
+        <instruction offset="20" block="55">$L7: (references=1) Offset: 21(0x0015)</instruction>
+        <instruction offset="20" block="55">EXITBODY</instruction>
+        <instruction offset="20" block="55">ret ViewModels.MainViewModel::set_HasText(T)</instruction>
+        <instruction offset="20" block="56">ViewModels.MainViewModel::set_HasText: (references=1) Offset: 22(0x0016)</instruction>
+        <instruction offset="20" block="56">EXITFUNCTION</instruction>
+        <instruction offset="20" block="57">$L5: (references=2)</instruction>
+        <instruction offset="20" block="57">UNWIND</instruction>
+        <instruction offset="20" block="58">$L2: (references=0) Offset: 22(0x0016)</instruction>
+        <instruction offset="20" block="58">END</instruction>
+      </disassembly>
+    </method>
+    <method name="get_SearchText()" class="ViewModels.MainViewModel" line="42" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="60" visited="0" offset="0" startLine="42" startColumn="13" lastLine="42" lastColumn="14" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="61" visited="0" offset="0" startLine="42" startColumn="13" lastLine="43" lastColumn="35" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="62" visited="0" offset="1" startLine="43" startColumn="17" lastLine="43" lastColumn="35" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="63" visited="0" offset="10" startLine="44" startColumn="13" lastLine="44" lastColumn="14" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="64" visited="0" offset="10" startLine="44" startColumn="13" lastLine="44" lastColumn="14" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="59">$L1: (references=0)</instruction>
+        <instruction offset="0" block="59">START ViewModels.MainViewModel::get_SearchText(T)</instruction>
+        <instruction offset="0" block="60">ViewModels.MainViewModel::get_SearchText: (references=1)</instruction>
+        <instruction offset="0" block="60">this              = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="60">br $L7</instruction>
+        <instruction offset="0" block="61">$L7: (references=1)</instruction>
+        <instruction offset="0" block="61">ENTERBODY</instruction>
+        <instruction offset="0" block="61">nop</instruction>
+        <instruction offset="1" block="61">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="61">SR0               = ldfld* [SR0]*"ViewModels.MainViewModel::searchText"+104?, $L6(EH)</instruction>
+        <instruction offset="1" block="62">CS$1$0000$135     = stloc SR0</instruction>
+        <instruction offset="1" block="62">br $L5</instruction>
+        <instruction offset="10" block="63">$L5: (references=1) Offset: 22(0x0016)</instruction>
+        <instruction offset="10" block="63">SR0               = ldloc CS$1$0000$135</instruction>
+        <instruction offset="10" block="63">br $L8</instruction>
+        <instruction offset="10" block="64">$L8: (references=1) Offset: 23(0x0017)</instruction>
+        <instruction offset="10" block="64">EXITBODY</instruction>
+        <instruction offset="10" block="64">ret ViewModels.MainViewModel::get_SearchText(T)</instruction>
+        <instruction offset="10" block="65">ViewModels.MainViewModel::get_SearchText: (references=1) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="65">EXITFUNCTION</instruction>
+        <instruction offset="10" block="66">$L6: (references=1)</instruction>
+        <instruction offset="10" block="66">UNWIND</instruction>
+        <instruction offset="10" block="67">$L2: (references=0) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="67">END</instruction>
+      </disassembly>
+    </method>
+    <method name="set_SearchText(object32-&gt;class64)" class="ViewModels.MainViewModel" line="47" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="69" visited="0" offset="0" startLine="47" startColumn="13" lastLine="47" lastColumn="14" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="70" visited="0" offset="0" startLine="47" startColumn="13" lastLine="48" lastColumn="36" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="71" visited="0" offset="8" startLine="50" startColumn="17" lastLine="50" lastColumn="49" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="72" visited="0" offset="8" startLine="50" startColumn="17" lastLine="50" lastColumn="49" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="73" visited="0" offset="8" startLine="50" startColumn="17" lastLine="50" lastColumn="49" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="74" visited="0" offset="8" startLine="50" startColumn="17" lastLine="52" lastColumn="52" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="75" visited="0" offset="29" startLine="52" startColumn="17" lastLine="52" lastColumn="52" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="76" visited="0" offset="41" startLine="53" startColumn="13" lastLine="53" lastColumn="14" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="68">$L1: (references=0)</instruction>
+        <instruction offset="0" block="68">START ViewModels.MainViewModel::set_SearchText(T)</instruction>
+        <instruction offset="0" block="69">ViewModels.MainViewModel::set_SearchText: (references=1)</instruction>
+        <instruction offset="0" block="69">this, value       = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="69">br $L6</instruction>
+        <instruction offset="0" block="70">$L6: (references=1)</instruction>
+        <instruction offset="0" block="70">ENTERBODY</instruction>
+        <instruction offset="0" block="70">nop</instruction>
+        <instruction offset="1" block="70">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="70">SR0               = ldarg value</instruction>
+        <instruction offset="1" block="70">[SR1]*"ViewModels.MainViewModel::searchText"+104? = stfld* SR0, $L5(EH)</instruction>
+        <instruction offset="8" block="71">SR0               = ldarg this</instruction>
+        <instruction offset="8" block="71">SR0               = ldarg this</instruction>
+        <instruction offset="8" block="71">SR0               = ldfld* [SR0]*"ViewModels.MainViewModel::searchText"+104?, $L5(EH)</instruction>
+        <instruction offset="8" block="72">SR0               = callvirt* &amp;System.String::get_Length, SR0, $L5(EH)</instruction>
+        <instruction offset="8" block="73">SR0               = ldc false(0x00000000)</instruction>
+        <instruction offset="8" block="73">SR0               = cmp(GT) SR1, SR0</instruction>
+        <instruction offset="8" block="73">call* &amp;ViewModels.MainViewModel::set_HasText, SR0, SR0, $L5(EH)</instruction>
+        <instruction offset="8" block="74">nop</instruction>
+        <instruction offset="29" block="74">SR0               = ldarg this</instruction>
+        <instruction offset="29" block="74">SR0               = ldstr Constant-"SearchText"</instruction>
+        <instruction offset="29" block="74">callvirt* &amp;GalaSoft.MvvmLight.ViewModelBase::RaisePropertyChanged, SR0, SR0, $L5(EH)</instruction>
+        <instruction offset="29" block="75">nop</instruction>
+        <instruction offset="29" block="75">br $L7</instruction>
+        <instruction offset="41" block="76">$L7: (references=1) Offset: 42(0x002a)</instruction>
+        <instruction offset="41" block="76">EXITBODY</instruction>
+        <instruction offset="41" block="76">ret ViewModels.MainViewModel::set_SearchText(T)</instruction>
+        <instruction offset="41" block="77">ViewModels.MainViewModel::set_SearchText: (references=1) Offset: 43(0x002b)</instruction>
+        <instruction offset="41" block="77">EXITFUNCTION</instruction>
+        <instruction offset="41" block="78">$L5: (references=5)</instruction>
+        <instruction offset="41" block="78">UNWIND</instruction>
+        <instruction offset="41" block="79">$L2: (references=0) Offset: 43(0x002b)</instruction>
+        <instruction offset="41" block="79">END</instruction>
+      </disassembly>
+    </method>
+    <method name="CanSearchNet()" class="ViewModels.MainViewModel" line="57" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="81" visited="0" offset="0" startLine="57" startColumn="9" lastLine="57" lastColumn="10" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="82" visited="0" offset="0" startLine="57" startColumn="9" lastLine="58" lastColumn="28" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="83" visited="0" offset="1" startLine="58" startColumn="13" lastLine="58" lastColumn="28" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="84" visited="0" offset="10" startLine="59" startColumn="9" lastLine="59" lastColumn="10" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="85" visited="0" offset="10" startLine="59" startColumn="9" lastLine="59" lastColumn="10" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="80">$L1: (references=0)</instruction>
+        <instruction offset="0" block="80">START ViewModels.MainViewModel::CanSearchNet(T)</instruction>
+        <instruction offset="0" block="81">ViewModels.MainViewModel::CanSearchNet: (references=1)</instruction>
+        <instruction offset="0" block="81">this              = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="81">br $L7</instruction>
+        <instruction offset="0" block="82">$L7: (references=1)</instruction>
+        <instruction offset="0" block="82">ENTERBODY</instruction>
+        <instruction offset="0" block="82">nop</instruction>
+        <instruction offset="1" block="82">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="82">SR0               = ldfld* [SR0]*"ViewModels.MainViewModel::hasText"+64?, $L6(EH)</instruction>
+        <instruction offset="1" block="83">CS$1$0000$135     = stloc SR0</instruction>
+        <instruction offset="1" block="83">br $L5</instruction>
+        <instruction offset="10" block="84">$L5: (references=1) Offset: 22(0x0016)</instruction>
+        <instruction offset="10" block="84">SR0               = ldloc CS$1$0000$135</instruction>
+        <instruction offset="10" block="84">br $L8</instruction>
+        <instruction offset="10" block="85">$L8: (references=1) Offset: 23(0x0017)</instruction>
+        <instruction offset="10" block="85">EXITBODY</instruction>
+        <instruction offset="10" block="85">ret ViewModels.MainViewModel::CanSearchNet(T)</instruction>
+        <instruction offset="10" block="86">ViewModels.MainViewModel::CanSearchNet: (references=1) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="86">EXITFUNCTION</instruction>
+        <instruction offset="10" block="87">$L6: (references=1)</instruction>
+        <instruction offset="10" block="87">UNWIND</instruction>
+        <instruction offset="10" block="88">$L2: (references=0) Offset: 24(0x0018)</instruction>
+        <instruction offset="10" block="88">END</instruction>
+      </disassembly>
+    </method>
+    <method name="SearchNet()" class="ViewModels.MainViewModel" line="62" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs">
+      <blocks>
+        <block id="90" visited="0" offset="0" startLine="62" startColumn="9" lastLine="62" lastColumn="10" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="91" visited="0" offset="0" startLine="62" startColumn="9" lastLine="63" lastColumn="64" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="92" visited="0" offset="1" startLine="63" startColumn="13" lastLine="63" lastColumn="64" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="93" visited="0" offset="1" startLine="63" startColumn="13" lastLine="63" lastColumn="64" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="94" visited="0" offset="1" startLine="63" startColumn="13" lastLine="63" lastColumn="64" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="95" visited="0" offset="1" startLine="63" startColumn="13" lastLine="63" lastColumn="64" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+        <block id="96" visited="0" offset="29" startLine="64" startColumn="9" lastLine="64" lastColumn="10" file="E:\Silverlight\MVVMLightGettingStarted\ViewModels\MainViewModel.cs" />
+      </blocks>
+      <disassembly>
+        <instruction offset="0" block="89">$L1: (references=0)</instruction>
+        <instruction offset="0" block="89">START ViewModels.MainViewModel::SearchNet(T)</instruction>
+        <instruction offset="0" block="90">ViewModels.MainViewModel::SearchNet: (references=1)</instruction>
+        <instruction offset="0" block="90">this              = ENTERFUNCTION</instruction>
+        <instruction offset="0" block="90">br $L6</instruction>
+        <instruction offset="0" block="91">$L6: (references=1)</instruction>
+        <instruction offset="0" block="91">ENTERBODY</instruction>
+        <instruction offset="0" block="91">nop</instruction>
+        <instruction offset="1" block="91">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="91">SR0               = ldfld* [SR0]*"ViewModels.MainViewModel::_dialogService"+136?, $L5(EH)</instruction>
+        <instruction offset="1" block="92">SR0               = ldstr Constant-"Searching for "</instruction>
+        <instruction offset="1" block="92">SR0               = ldarg this</instruction>
+        <instruction offset="1" block="92">SR0               = call* &amp;ViewModels.MainViewModel::get_SearchText, SR0, $L5(EH)</instruction>
+        <instruction offset="1" block="93">SR0               = call* &amp;System.String::Concat, SR0, SR0, $L5(EH)</instruction>
+        <instruction offset="1" block="94">callvirt* &amp;ViewModels.IDialogService::Show, SR0, SR0, $L5(EH)</instruction>
+        <instruction offset="1" block="95">nop</instruction>
+        <instruction offset="1" block="95">br $L7</instruction>
+        <instruction offset="29" block="96">$L7: (references=1) Offset: 30(0x001e)</instruction>
+        <instruction offset="29" block="96">EXITBODY</instruction>
+        <instruction offset="29" block="96">ret ViewModels.MainViewModel::SearchNet(T)</instruction>
+        <instruction offset="29" block="97">ViewModels.MainViewModel::SearchNet: (references=1) Offset: 31(0x001f)</instruction>
+        <instruction offset="29" block="97">EXITFUNCTION</instruction>
+        <instruction offset="29" block="98">$L5: (references=4)</instruction>
+        <instruction offset="29" block="98">UNWIND</instruction>
+        <instruction offset="29" block="99">$L2: (references=0) Offset: 31(0x001f)</instruction>
+        <instruction offset="29" block="99">END</instruction>
+      </disassembly>
+    </method>
+  </assembly>
+</coverage>

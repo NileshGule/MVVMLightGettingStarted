@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="EE5399BB-6A16-4138-BC29-8FF2F553DE0C" ModuleId="MVVMLightGettingStarted" />
+  <Module PersistentId="E5E2F854-4654-43AD-89DD-D5174AAF1A8F" ModuleId="ViewModel.Test" />
+  <Module PersistentId="3C9557EF-6EBC-4C9B-B0E3-8E0E4B7517AC" ModuleId="ViewModels_1" />
+  <Module PersistentId="97B27EC1-C9DD-496E-8AE0-D75843BCA13C" ModuleId="SilverlightUnitTests" />
+</Modules>

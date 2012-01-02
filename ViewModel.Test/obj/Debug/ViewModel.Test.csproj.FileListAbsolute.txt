@@ -1,0 +1,17 @@
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\ViewModel.Test.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\ViewModel.Test.pdb
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\GalaSoft.MvvmLight.SL4.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\Rhino.Mocks.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\system.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\System.Windows.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\ViewModels.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\System.Net.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\System.Runtime.Serialization.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\ViewModels.pdb
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\GalaSoft.MvvmLight.SL4.xml
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\System.Windows.xml
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\System.Net.xml
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\bin\Debug\System.Runtime.Serialization.xml
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\obj\Debug\ResolveAssemblyReference.cache
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\obj\Debug\ViewModel.Test.dll
+E:\Silverlight\MVVMLightGettingStarted\ViewModel.Test\obj\Debug\ViewModel.Test.pdb

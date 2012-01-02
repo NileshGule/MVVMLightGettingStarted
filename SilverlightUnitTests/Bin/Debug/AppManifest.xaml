@@ -1,0 +1,10 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="SilverlightUnitTests" EntryPointType="SilverlightUnitTests.App" RuntimeVersion="4.0.50826.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="SilverlightUnitTests" Source="SilverlightUnitTests.dll" />
+    <AssemblyPart x:Name="GalaSoft.MvvmLight.SL4" Source="GalaSoft.MvvmLight.SL4.dll" />
+    <AssemblyPart x:Name="Microsoft.Silverlight.Testing" Source="Microsoft.Silverlight.Testing.dll" />
+    <AssemblyPart x:Name="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight" Source="Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll" />
+    <AssemblyPart x:Name="MVVMLightGettingStarted" Source="MVVMLightGettingStarted.dll" />
+    <AssemblyPart x:Name="ViewModels" Source="ViewModels.dll" />
+  </Deployment.Parts>
+</Deployment>
